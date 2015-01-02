@@ -57,7 +57,6 @@ Gem::Specification.new do |s|
       s.add_development_dependency(%q<simplecov>, ["~> 0.9.1"])
       s.add_development_dependency(%q<coveralls>, ["~> 0.7.2"])
       s.add_development_dependency(%q<webmock>, ["~> 1.20.4"])
-      s.add_runtime_dependency(%q<httparty>, [">= 0.13.3"])
     else
       s.add_dependency(%q<httparty>, ["~> 0.13.3"])
       s.add_dependency(%q<rdoc>, ["~> 3.12"])
@@ -72,7 +71,6 @@ Gem::Specification.new do |s|
       s.add_dependency(%q<simplecov>, ["~> 0.9.1"])
       s.add_dependency(%q<coveralls>, ["~> 0.7.2"])
       s.add_dependency(%q<webmock>, ["~> 1.20.4"])
-      s.add_dependency(%q<httparty>, [">= 0.13.3"])
     end
   else
     s.add_dependency(%q<httparty>, ["~> 0.13.3"])
@@ -88,7 +86,6 @@ Gem::Specification.new do |s|
     s.add_dependency(%q<simplecov>, ["~> 0.9.1"])
     s.add_dependency(%q<coveralls>, ["~> 0.7.2"])
     s.add_dependency(%q<webmock>, ["~> 1.20.4"])
-    s.add_dependency(%q<httparty>, [">= 0.13.3"])
   end
 end
 
