@@ -18,8 +18,8 @@ Jeweler::Tasks.new do |gem|
   gem.name = 'env-danger'
   gem.homepage = 'http://github.com/tibbon/env-danger'
   gem.license = 'MIT'
-  gem.summary = %(TODO: Do not install, a security-hole demo only )
-  gem.description = %(TODO: Demonstrates the dangers of using
+  gem.summary = %(Do not install, a security-hole demo only)
+  gem.description = %(Demonstrates the dangers of using
                         ENV to store credentials)
   gem.email = 'tibbon@gmail.com'
   gem.authors = ['David Fisher']

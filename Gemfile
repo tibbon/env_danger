@@ -1,6 +1,6 @@
 source 'http://rubygems.org'
 
-gem 'httparty'
+gem 'httparty', github: 'jnunemaker/httparty'
 
 group :development do
   gem 'rdoc', '~> 3.12'
@@ -16,4 +16,6 @@ group :development, :test do
   gem 'rspec-mocks', '~> 3.2.0.pre', github: 'rspec/rspec-mocks'
   gem 'rspec', '~> 3.2.0.pre', github: 'rspec/rspec'
   gem 'simplecov', '>= 0'
+  gem 'coveralls'
+  gem 'webmock'
 end

