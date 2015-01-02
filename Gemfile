@@ -15,7 +15,7 @@ group :development, :test do
   gem 'rspec-support', '~> 3.2.0.pre', github: 'rspec/rspec-support'
   gem 'rspec-mocks', '~> 3.2.0.pre', github: 'rspec/rspec-mocks'
   gem 'rspec', '~> 3.2.0.pre', github: 'rspec/rspec'
-  gem 'simplecov', '>= 0'
-  gem 'coveralls'
-  gem 'webmock'
+  gem 'simplecov', '~> 0.9.1'
+  gem 'coveralls', '~> 0.7.2'
+  gem 'webmock', '~> 1.20.4'
 end
