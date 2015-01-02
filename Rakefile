@@ -24,7 +24,7 @@ Jeweler::Tasks.new do |gem|
   gem.email = 'tibbon@gmail.com'
   gem.authors = ['David Fisher']
   # dependencies defined in Gemfile
-  gem.add_runtime_dependency 'httparty', '~> 0.13', '>= 0.13.3'
+  gem.add_runtime_dependency 'httparty', '>= 0.13.3'
 end
 Jeweler::RubygemsDotOrgTasks.new
 
