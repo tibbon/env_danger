@@ -1,14 +1,18 @@
 source "http://rubygems.org"
-# Add dependencies required to use your gem here.
-# Example:
-#   gem "activesupport", ">= 2.3.5"
 
-# Add dependencies to develop your gem here.
-# Include everything needed to run rake, tests, features, etc.
+gem 'httparty'
+
 group :development do
-  gem "shoulda", ">= 0"
-  gem "rdoc", "~> 3.12"
-  gem "bundler", "~> 1.0"
-  gem "jeweler", "~> 2.0.1"
-  gem "simplecov", ">= 0"
+  gem 'rdoc', '~> 3.12'
+  gem 'bundler', '~> 1.0'
+  gem 'jeweler', '~> 2.0.1'
+end
+
+group :development, :test do
+  gem 'rspec-core', '~> 3.2.0.pre', github: 'rspec/rspec-core'
+  gem 'rspec-expectations', '~> 3.2.0.pre', github: 'rspec/rspec-expectations'
+  gem 'rspec-support', '~> 3.2.0.pre', github: 'rspec/rspec-support'
+  gem 'rspec-mocks', '~> 3.2.0.pre', github: 'rspec/rspec-mocks'
+  gem 'rspec', '~> 3.2.0.pre', github: 'rspec/rspec'
+  gem 'simplecov', '>= 0'
 end
