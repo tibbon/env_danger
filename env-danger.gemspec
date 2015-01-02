@@ -27,6 +27,7 @@ Gem::Specification.new do |s|
     "README.md",
     "Rakefile",
     "VERSION",
+    "env-danger.gemspec",
     "lib/env-danger.rb",
     "lib/env-danger/danger.rb",
     "lib/env-danger/version.rb",
