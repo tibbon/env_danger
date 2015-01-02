@@ -1,4 +1,4 @@
-source "http://rubygems.org"
+source 'http://rubygems.org'
 
 gem 'httparty'
 
@@ -9,6 +9,7 @@ group :development do
 end
 
 group :development, :test do
+  gem 'rubocop'
   gem 'rspec-core', '~> 3.2.0.pre', github: 'rspec/rspec-core'
   gem 'rspec-expectations', '~> 3.2.0.pre', github: 'rspec/rspec-expectations'
   gem 'rspec-support', '~> 3.2.0.pre', github: 'rspec/rspec-support'
