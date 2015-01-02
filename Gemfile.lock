@@ -141,7 +141,7 @@ PLATFORMS
 DEPENDENCIES
   bundler (~> 1.0)
   coveralls (~> 0.7.2)
-  httparty!
+  httparty (~> 0.13.3)!
   jeweler (~> 2.0.1)
   rdoc (~> 3.12)
   rspec (~> 3.2.0.pre)!

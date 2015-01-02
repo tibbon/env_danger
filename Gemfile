@@ -1,6 +1,6 @@
 source 'http://rubygems.org'
 
-gem 'httparty', github: 'jnunemaker/httparty'
+gem 'httparty', '~> 0.13.3', github: 'jnunemaker/httparty'
 
 group :development do
   gem 'rdoc', '~> 3.12'
